@@ -6,7 +6,7 @@
 #### Input
 - Two lists of numbers x[], y[] to calculate the correlation coefficient between them.
 - Constraints:
-  - length of n = len(x) = len(y) = r > 0
+  - length of n = len(x) = len(y) > 0
 
 #### Process `naieve`
 1. n
