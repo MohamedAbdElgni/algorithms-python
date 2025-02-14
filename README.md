@@ -4,7 +4,7 @@ This repository contains solutions to various algorithm problems with detailed d
 
 ## Project Structure
 
-```
+``` bash
 algorithms-python/
 ├── docs/              # Documentation for each problem
 │   └── problem-name.md
@@ -21,6 +21,7 @@ algorithms-python/
 ## Documentation Format
 
 Each problem includes:
+
 1. A markdown file in the `docs/` directory explaining:
    - Problem description
    - Algorithm design
@@ -34,19 +35,22 @@ Each problem includes:
 
 ## Getting Started
 
-1. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+1. Install dependencies.
 
-2. Run tests:
-```bash
-pytest tests/
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Run tests.
+
+   ```bash
+   pytest tests/
+   ```
 
 ## Contributing
 
 When adding a new problem solution:
+
 1. Create documentation in `docs/`
 2. Implement solution in appropriate category in `src/`
 3. Add comprehensive tests in `tests/`
