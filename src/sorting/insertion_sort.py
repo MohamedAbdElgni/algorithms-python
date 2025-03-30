@@ -1,4 +1,11 @@
 def insertion_sort(nums: list):
+    """
+    Sorts a list of numbers in ascending order using the insertion sort algorithm.
+    Args:
+        nums (list): A list of numbers to be sorted.
+    Returns:
+        list: The sorted list of numbers.
+    """
     # Start from the second element as the first element is already sorted
     current_index = 1
     while current_index < len(nums):
