@@ -2,6 +2,7 @@ from src.sorting.insertion_sort import insertion_sort
 
 
 def test_insertion_sort():
+    """Tests the insertion sort function with various test cases."""
     nums = [3, 2, 1, 5, 4]
     assert insertion_sort(nums) == [1, 2, 3, 4, 5]
 
@@ -12,7 +13,7 @@ def test_insertion_sort():
     assert insertion_sort(nums) == [1, 2, 3, 4, 5]
 
     nums = []
-    assert insertion_sort(nums) == []
+    assert not insertion_sort(nums)
 
     nums = [42]
     assert insertion_sort(nums) == [42]
