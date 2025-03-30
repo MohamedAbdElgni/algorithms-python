@@ -1,3 +1,5 @@
+"""Module for insertion sort implementation."""
+
 def insertion_sort(nums: list):
     """
     Sorts a list of numbers in ascending order using the insertion sort algorithm.
