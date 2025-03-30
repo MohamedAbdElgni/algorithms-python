@@ -1,3 +1,5 @@
+"""Tests for the insertion sort algorithm."""
+
 from src.sorting.insertion_sort import insertion_sort
 
 
