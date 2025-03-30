@@ -1,7 +1,6 @@
 from src.sorting.insertion_sort import insertion_sort
 
 
-
 def test_insertion_sort():
     nums = [3, 2, 1, 5, 4]
     assert insertion_sort(nums) == [1, 2, 3, 4, 5]

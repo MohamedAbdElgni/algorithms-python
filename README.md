@@ -46,6 +46,13 @@ Each problem includes:
    ```bash
    pytest tests/
    ```
+   
+3. black and isort linting
+4. 
+   ```bash
+   black src/ tests/
+   isort src/ tests/
+   ```
 
 ## Contributing
 
