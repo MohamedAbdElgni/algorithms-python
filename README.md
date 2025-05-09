@@ -4,18 +4,18 @@ This repository contains solutions to various algorithm problems with detailed d
 
 ## Project Structure
 
-``` bash
+```
 algorithms-python/
 ├── docs/              # Documentation for each problem
 │   └── problem-name.md
-├── src/              # Source code organized by categories
-│   ├── dynamic/      # Dynamic programming problems
-│   ├── graphs/       # Graph-related problems
-│   ├── math/         # Mathematical problems
-│   ├── searching/    # Searching algorithms
-│   ├── sorting/      # Sorting algorithms
-│   └── strings/      # String manipulation problems
-└── tests/            # Test cases for each solution
+├── src/               # Source code organized by categories
+│   ├── dynamic/       # Dynamic programming problems
+│   ├── graphs/        # Graph-related problems
+│   ├── math/          # Mathematical problems
+│   ├── searching/     # Searching algorithms
+│   ├── sorting/       # Sorting algorithms
+│   └── strings/       # String manipulation problems
+└── tests/             # Test cases for each solution
 ```
 
 ## Documentation Format
@@ -23,32 +23,41 @@ algorithms-python/
 Each problem includes:
 
 1. A markdown file in the `docs/` directory explaining:
-   - Problem description
-   - Algorithm design
-   - Input/Output specifications
-   - Constraints
-   - Solution approach
-   - Time and space complexity
+
+   * Problem description
+   * Algorithm design
+   * Input/Output specifications
+   * Constraints
+   * Solution approach
+   * Time and space complexity
 
 2. Implementation in the appropriate category directory under `src/`
+
 3. Test cases in the `tests/` directory
 
 ## Getting Started
 
-1. Install dependencies.
+1. Create a virtual environment:
 
    ```bash
-   pip install -r requirements.txt
+   uv venv
+   source .venv/bin/activate
    ```
 
-2. Run tests.
+2. Install dependencies listed in `pyproject.toml`:
+
+   ```bash
+   uv sync
+   ```
+
+3. Run tests:
 
    ```bash
    pytest tests/
    ```
-   
-3. black and isort linting
-4. 
+
+4. Format and lint code:
+
    ```bash
    black src/ tests/
    isort src/ tests/

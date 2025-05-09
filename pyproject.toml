@@ -1,0 +1,16 @@
+[project]
+name = "algorithms-python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest==7.4.3",
+    "pytest-cov==4.1.0",
+    "black==23.11.0",
+    "mypy==1.7.0",
+    "isort==5.12.0"
+]
