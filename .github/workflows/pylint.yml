@@ -27,4 +27,4 @@ jobs:
       run: |
         uv venv
         source .venv/bin/activate
-        uv pip install pylint  # or include pylint in pyproject.toml and jus
+        uv pip install pylint  # or include pylint in pyproject.toml and just run uv sync
