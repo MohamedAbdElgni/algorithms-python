@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "pylint>=3.3.7",
+    "pytest>=7.4.3",
 ]
 
 [project.optional-dependencies]
