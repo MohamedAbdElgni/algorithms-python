@@ -63,6 +63,32 @@ Each problem includes:
    isort src/ tests/
    ```
 
+## Pre-commit Hooks
+
+This project uses pre-commit hooks to ensure code quality before each commit. Pre-commit automatically runs checks like formatting, linting, and type checking when you attempt to make a commit.
+
+1. Install pre-commit hooks (after installing dependencies):
+
+   ```bash
+   pre-commit install
+   ```
+
+2. The hooks will run automatically on each commit, but you can also run them manually:
+
+   ```bash
+   pre-commit run --all-files
+   ```
+
+3. The following checks are configured:
+   - Trailing whitespace removal
+   - End-of-file fixing
+   - YAML validation
+   - Large file checking
+   - Black (code formatting)
+   - isort (import sorting)
+   - pylint (linting)
+   - mypy (type checking)
+
 ## Contributing
 
 When adding a new problem solution:

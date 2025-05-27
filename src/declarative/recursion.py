@@ -1,5 +1,6 @@
 """Module for recursion and visualization for it."""
 
+
 def factorial(num: int) -> int:
     """
     Calculate factorial of a given number.

@@ -11,7 +11,7 @@
 #### Process `naieve`
 1. n
 2. sum(x*y)
-3. sum(x) 
+3. sum(x)
 4. sum(y)
 5. sum(x^2)
 6. sum(y^2)

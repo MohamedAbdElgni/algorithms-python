@@ -27,7 +27,7 @@ jobs:
       run: |
         uv venv
         source .venv/bin/activate
-        uv sync 
+        uv sync
 
     - name: Analysing the code with pylint
       run: |

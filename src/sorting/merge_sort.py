@@ -1,6 +1,7 @@
 """Module for merge sort"""
 
-def merge_sort(nums: list)->list:
+
+def merge_sort(nums: list) -> list:
     """
     Sorts an array with the merge sort algo.
     Args:
@@ -8,4 +9,4 @@ def merge_sort(nums: list)->list:
     Returns:
         list: The sorted list of numbers.
     """
-    ...
+    return nums
