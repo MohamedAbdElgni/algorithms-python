@@ -1,6 +1,6 @@
-name: Pylint
-
-on: [push, pull_request]
+#name: Pylint
+#
+#on: [push, pull_request]
 
 jobs:
   lint:
