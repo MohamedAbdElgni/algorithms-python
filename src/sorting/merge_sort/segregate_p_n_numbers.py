@@ -2,7 +2,7 @@
 Segregate positive and negative numbers  with merge sort
 """
 
-from src.utils.debug_utils import debug_print
+from src.utils import debug_print
 
 
 def segregate_p_n_nums(nums:list):
